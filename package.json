@@ -1,0 +1,81 @@
+{
+  "_from": "cordova-plugin-custom-animated-splashscreen",
+  "_id": "cordova-plugin-custom-animated-splashscreen@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wVRzHrHnCQdiR+OjAUj8PJxIhOcpcccVb8wN1wevf19NTSW9SYrImEnBc+0osRkdy4L6/RWBPlwjTrNtI5KgFg==",
+  "_location": "/cordova-plugin-custom-animated-splashscreen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-custom-animated-splashscreen",
+    "name": "cordova-plugin-custom-animated-splashscreen",
+    "escapedName": "cordova-plugin-custom-animated-splashscreen",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+
+  "author": {
+    "name": "dev"
+  },
+  "bugs": {
+    "url": "https://github.com/ryzhkin/cordova-plugin-custom-animated-splashscreen"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-custom-animated-splashscreen",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-custom-config": "^5.0.2"
+  },
+  "deprecated": false,
+  "description": "Cordova Custom Animated Splashscreen Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": ">=3.6.0"
+      },
+      "4.0.0": {
+        "cordova-android": ">=3.6.0",
+        "cordova-windows": ">=4.4.0"
+      },
+      "6.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/ryzhkin/cordova-plugin-custom-animated-splashscreen#readme",
+  "keywords": [
+    "cordova",
+    "splashscreen",
+    "animation",
+    "animated splashscreen",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-custom-animated-splashscreen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryzhkin/cordova-plugin-custom-animated-splashscreen.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "1.1.3"
+}
